@@ -1,0 +1,67 @@
+[
+  {
+    "node_1": "Red Vole",
+    "node_2": "Myodes rutilus",
+    "edge": "scientific name of"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "rodent",
+    "edge": "is a type of"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "Cricetidae",
+    "edge": "belongs to family"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "North America",
+    "edge": "found in"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "forest habitats",
+    "edge": "inhabits"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "herbivore",
+    "edge": "is a"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "burrowing",
+    "edge": "is known for"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "small size",
+    "edge": "is characterized by its"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "solitary",
+    "edge": "is generally"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "nocturnal",
+    "edge": "is"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "tail",
+    "edge": "has a short"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "soft fur",
+    "edge": "has"
+  },
+  {
+    "node_1": "Red Vole",
+    "node_2": "seeds and plants",
+    "edge": "feeds on"
+  }
+]

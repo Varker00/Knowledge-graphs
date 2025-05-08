@@ -1,0 +1,102 @@
+[
+  {
+    "node_1": "Donald Trump",
+    "node_2": "United States",
+    "edge": "was president of"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "2017-2021",
+    "edge": "served as president during"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Republican Party",
+    "edge": "is affiliated with"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Joe Biden",
+    "edge": "was succeeded by"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Barack Obama",
+    "edge": "succeeded"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Trump Organization",
+    "edge": "is founder of"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "real estate",
+    "edge": "made fortune in"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "television personality",
+    "edge": "is also known as"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "The Apprentice",
+    "edge": "was host of"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Melania Trump",
+    "edge": "is married to"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Ivanka Trump",
+    "edge": "is father of"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Donald Trump Jr.",
+    "edge": "is father of"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "New York City",
+    "edge": "was born in"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "June 14, 1946",
+    "edge": "was born on"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "businessman",
+    "edge": "is also known as"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "2020 election",
+    "edge": "lost to Joe Biden in"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "impeachment",
+    "edge": "was subject of"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "twice",
+    "edge": "was impeached"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "Twitter",
+    "edge": "was known for frequent use of"
+  },
+  {
+    "node_1": "Donald Trump",
+    "node_2": "University of Pennsylvania",
+    "edge": "graduated from"
+  }
+]

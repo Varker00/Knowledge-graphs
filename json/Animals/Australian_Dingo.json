@@ -1,0 +1,77 @@
+[
+  {
+    "node_1": "Australian dingo",
+    "node_2": "Canis lupus dingo",
+    "edge": "scientific name of"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "wild dog",
+    "edge": "is a"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "Australia",
+    "edge": "native to"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "Canidae",
+    "edge": "belongs to family"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "carnivore",
+    "edge": "is a"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "invasive species",
+    "edge": "can be considered an"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "domestic dog",
+    "edge": "closely related to"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "adapted to arid environments",
+    "edge": "is well"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "hunting",
+    "edge": "hunts in"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "pack behavior",
+    "edge": "exhibits"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "territorial",
+    "edge": "is"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "humans",
+    "edge": "has been in conflict with"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "wildlife",
+    "edge": "affects native"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "conservation status",
+    "edge": "has varying"
+  },
+  {
+    "node_1": "Australian dingo",
+    "node_2": "mainly nocturnal",
+    "edge": "is"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "node_1": "Britney Spears",
+    "node_2": "singer",
+    "edge": "is a"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "pop music",
+    "edge": "is known for"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "...Baby One More Time",
+    "edge": "debuted with"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "1999",
+    "edge": "debut album released in"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Oops!... I Did It Again",
+    "edge": "released"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "2000",
+    "edge": "Oops!... I Did It Again released in"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "United States",
+    "edge": "is from"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Kentwood, Louisiana",
+    "edge": "was born in"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "December 2, 1981",
+    "edge": "was born on"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "actress",
+    "edge": "has worked as"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "dancer",
+    "edge": "is also a"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "The Mickey Mouse Club",
+    "edge": "was part of"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Justin Timberlake",
+    "edge": "was in a relationship with"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Kevin Federline",
+    "edge": "was married to"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "conservatorship",
+    "edge": "was under"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Jamie Spears",
+    "edge": "was under conservatorship of"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Free Britney",
+    "edge": "inspired the movement"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "2021",
+    "edge": "conservatorship ended in"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Grammy Award",
+    "edge": "has won"
+  },
+  {
+    "node_1": "Britney Spears",
+    "node_2": "Princess of Pop",
+    "edge": "is often called"
+  }
+]
