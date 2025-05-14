@@ -29,29 +29,7 @@ def main():
                     net.add_edge(node1, node2, label=edge_label, weight=weight)
 
     html_path = f"{output_path}/knowledge_graph.html"
-    image_path = f"{output_path}/knowledge_graph.png"
     net.save_graph(html_path)
-    # Display html for user
-    # net.show(html_path, notebook=False)
-
-    options = webdriver.ChromeOptions()
-    options.add_argument('--headless')  # Run in headless mode
-    driver = webdriver.Chrome(options=options)
-
-    driver.get(f'file://{os.path.abspath(html_path)}')
-
-    time.sleep(3)
-
-    driver.save_screenshot(image_path)
-
-    image = Image.open(image_path)
-    # Define the area to crop (left, top, right, bottom)
-    image_cropped = image.crop((0, 0, image.width, image.height))
-    image_cropped.save(image_path)
-
-    driver.quit()
 
 if __name__ == '__main__':
     main()
-
-
