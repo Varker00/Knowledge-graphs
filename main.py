@@ -9,7 +9,7 @@ from pyvis.network import Network
 
 def main():
     input_path = sys.argv[1] if len(sys.argv) > 1 else "../json"
-    output_path = "../graphs"
+    output_path = sys.argv[2] if len(sys.argv) > 2 else "../graphs"
 
     net = Network(height="800px", width="100%", directed=True, notebook=False)
 
