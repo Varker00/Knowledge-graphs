@@ -20,12 +20,13 @@ def main():
                     for item in data:
                         node1 = item["node_1"]
                         node2 = item["node_2"]
-                        edge_label  = item["edge"]
+                        edge_label = item["edge"]
+                        weight = item.get("weight", 1)
                         net.add_node(node1, label=node1)
                         net.add_node(node2, label=node2)
 
                         # Add edge with label
-                        net.add_edge(node1, node2, label=edge_label)
+                        net.add_edge(node1, node2, label=edge_label, weight=weight)
         html_path = f"{output_path}/Html/knowledge_graph_{category}.html"
         image_path = f"{output_path}/Images/{category}.png"
         net.save_graph(html_path)
