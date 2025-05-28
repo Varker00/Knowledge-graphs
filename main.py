@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import time
+from pathlib import Path
 from selenium import webdriver
 from PIL import Image
 from pyvis.network import Network
@@ -15,6 +16,8 @@ def main():
 
     for filename in os.listdir(input_path):
         if filename.endswith(".json"):
+            existing_edges = set()
+
             with open(os.path.join(input_path, filename), 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 for item in data:
@@ -22,11 +25,15 @@ def main():
                     node2 = item["node_2"]
                     edge_label = item["edge"]
                     weight = item.get("weight", 1)
+                    if (node1, node2) in existing_edges or (node2, node1) in existing_edges:
+                        continue
+
                     net.add_node(node1, label=node1)
                     net.add_node(node2, label=node2)
 
                     # Add edge with label
                     net.add_edge(node1, node2, label=edge_label, weight=weight)
+                    #existing_edges.add((node1, node2))
 
     html_path = f"{output_path}/knowledge_graph.html"
     net.save_graph(html_path)
